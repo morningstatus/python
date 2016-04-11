@@ -18,6 +18,21 @@ $RECYCLE.BIN/
 *.lnk
 
 *.pyc
+*.sdf
+*.tgz
+*.zip
+*.exe
+*.exp
+*.pdb
+*.vcxproj
+*.filters
+*.user
+*.tlog
+*.obj
+*.log
+*.idb
+*.lastbuildstate
+
 
 # =========================
 # Operating System Files
