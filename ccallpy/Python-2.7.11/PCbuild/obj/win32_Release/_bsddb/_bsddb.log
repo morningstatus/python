@@ -1,0 +1,474 @@
+﻿生成启动时间为 2016/4/4 18:55:56。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\_bsddb.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\build_windows" /I"E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0" /I"E:\documents\python\hello\Python-2.7.11\Include" /I"E:\documents\python\hello\Python-2.7.11\PC" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _CRT_SECURE_NO_WARNINGS /D WIN32 /D _WIN32 /D NDEBUG /D Py_BUILD_CORE_MODULE /D _WINDLL /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\_bsddb\\" /Fd"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\_bsddb\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Modules\_bsddb.c "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\aes_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_compact.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_compare.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_conv.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_curadj.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_cursor.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_delete.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_open.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_put.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_reclaim.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_recno.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_rsearch.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_search.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_split.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_upgrade.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_verify.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\btree_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\crdel_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\crdel_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\crypto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_am.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_byteorder.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_cam.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_cds.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_conv.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_dispatch.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_dup.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_err.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_getlong.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_idspace.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_iface.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_join.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_log2.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_meta.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_open.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_overflow.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_ovfl_vrfy.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_pr.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_reclaim.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_remove.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_rename.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_ret.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_setid.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_setlsn.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_shash.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_stati.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_truncate.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_upg.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_upg_opd.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_vrfy.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_vrfyutil.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbm\dbm.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_util.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\dbt.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_alloc.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_config.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_failchk.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_file.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_globals.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_name.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_open.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_recover.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_region.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_register.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_sig.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fileops_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fop_basic.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fop_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fop_util.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_conv.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_dup.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_func.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_meta.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_open.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_page.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_reclaim.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_upgrade.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_verify.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hmac\hmac.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hsearch\hsearch.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_deadlock.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_failchk.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_id.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_list.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_region.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_timer.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_util.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_archive.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_compare.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_debug.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_get.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_put.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\mkpath.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_alloc.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_bh.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fget.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fmethod.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fopen.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fput.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fset.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_mvcc.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_region.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_register.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_resize.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_sync.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_trickle.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\mersenne\mt19937db.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_alloc.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_failchk.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_region.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_win32.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\openflags.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_abort.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_abs.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_addrinfo.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_alloc.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_clock.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_config.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_cpu.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_ctime.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_dir.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_errno.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_fid.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_flock.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_fsync.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_getenv.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_handle.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_map.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\os_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_mkdir.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_open.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_pid.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_rename.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_root.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_rpath.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_rw.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_seek.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_stack.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_tmpdir.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_truncate.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_uid.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_unlink.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_yield.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_conv.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_files.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_open.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_upgrade.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_verify.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_backup.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_elect.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_lease.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_log.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_record.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_region.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_util.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_verify.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_elect.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_msg.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_net.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_queue.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_sel.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_util.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_windows.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\rijndael\rijndael-alg-fst.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\rijndael\rijndael-api-fst.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\sequence\seq_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\sequence\sequence.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hmac\sha1.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\clib\strsep.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_auto.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_chkpt.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_failchk.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_method.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_rec.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_recover.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_region.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_stat.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_util.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\util_cache.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\util_log.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\util_sig.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\xa\xa.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\xa\xa_db.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\xa\xa_map.c" "E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\zerofill.c"
+         _bsddb.c
+     1>e:\documents\python\hello\python-2.7.11\modules\bsddb.h(104): fatal error C1083: 无法打开包括文件:“db.h”: No such file or directory
+         aes_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\aes_method.c”: No such file or directory
+         bt_compact.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_compact.c”: No such file or directory
+         bt_compare.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_compare.c”: No such file or directory
+         bt_conv.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_conv.c”: No such file or directory
+         bt_curadj.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_curadj.c”: No such file or directory
+         bt_cursor.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_cursor.c”: No such file or directory
+         bt_delete.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_delete.c”: No such file or directory
+         bt_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_method.c”: No such file or directory
+         bt_open.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_open.c”: No such file or directory
+         bt_put.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_put.c”: No such file or directory
+         bt_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_rec.c”: No such file or directory
+         bt_reclaim.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_reclaim.c”: No such file or directory
+         bt_recno.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_recno.c”: No such file or directory
+         bt_rsearch.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_rsearch.c”: No such file or directory
+         bt_search.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_search.c”: No such file or directory
+         bt_split.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_split.c”: No such file or directory
+         bt_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_stat.c”: No such file or directory
+         bt_upgrade.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_upgrade.c”: No such file or directory
+         bt_verify.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\bt_verify.c”: No such file or directory
+         正在编译...
+         btree_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\btree\btree_auto.c”: No such file or directory
+         crdel_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\crdel_auto.c”: No such file or directory
+         crdel_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\crdel_rec.c”: No such file or directory
+         crypto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\crypto.c”: No such file or directory
+         db.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db.c”: No such file or directory
+         db_am.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_am.c”: No such file or directory
+         db_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_auto.c”: No such file or directory
+         db_byteorder.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_byteorder.c”: No such file or directory
+         db_cam.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_cam.c”: No such file or directory
+         db_cds.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_cds.c”: No such file or directory
+         db_conv.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_conv.c”: No such file or directory
+         db_dispatch.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_dispatch.c”: No such file or directory
+         db_dup.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_dup.c”: No such file or directory
+         db_err.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_err.c”: No such file or directory
+         db_getlong.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_getlong.c”: No such file or directory
+         db_idspace.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_idspace.c”: No such file or directory
+         db_iface.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_iface.c”: No such file or directory
+         db_join.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_join.c”: No such file or directory
+         db_log2.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_log2.c”: No such file or directory
+         db_meta.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_meta.c”: No such file or directory
+         正在编译...
+         db_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_method.c”: No such file or directory
+         db_open.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_open.c”: No such file or directory
+         db_overflow.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_overflow.c”: No such file or directory
+         db_ovfl_vrfy.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_ovfl_vrfy.c”: No such file or directory
+         db_pr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_pr.c”: No such file or directory
+         db_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_rec.c”: No such file or directory
+         db_reclaim.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_reclaim.c”: No such file or directory
+         db_remove.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_remove.c”: No such file or directory
+         db_rename.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_rename.c”: No such file or directory
+         db_ret.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_ret.c”: No such file or directory
+         db_setid.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_setid.c”: No such file or directory
+         db_setlsn.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_setlsn.c”: No such file or directory
+         db_shash.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\db_shash.c”: No such file or directory
+         db_stati.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_stati.c”: No such file or directory
+         db_truncate.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_truncate.c”: No such file or directory
+         db_upg.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_upg.c”: No such file or directory
+         db_upg_opd.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_upg_opd.c”: No such file or directory
+         db_vrfy.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_vrfy.c”: No such file or directory
+         db_vrfyutil.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\db\db_vrfyutil.c”: No such file or directory
+         dbm.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbm\dbm.c”: No such file or directory
+         正在编译...
+         dbreg.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg.c”: No such file or directory
+         dbreg_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_auto.c”: No such file or directory
+         dbreg_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_rec.c”: No such file or directory
+         dbreg_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_stat.c”: No such file or directory
+         dbreg_util.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\dbreg\dbreg_util.c”: No such file or directory
+         dbt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\dbt.c”: No such file or directory
+         env_alloc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_alloc.c”: No such file or directory
+         env_config.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_config.c”: No such file or directory
+         env_failchk.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_failchk.c”: No such file or directory
+         env_file.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_file.c”: No such file or directory
+         env_globals.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_globals.c”: No such file or directory
+         env_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_method.c”: No such file or directory
+         env_name.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_name.c”: No such file or directory
+         env_open.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_open.c”: No such file or directory
+         env_recover.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_recover.c”: No such file or directory
+         env_region.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_region.c”: No such file or directory
+         env_register.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_register.c”: No such file or directory
+         env_sig.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_sig.c”: No such file or directory
+         env_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\env\env_stat.c”: No such file or directory
+         fileops_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fileops_auto.c”: No such file or directory
+         正在编译...
+         fop_basic.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fop_basic.c”: No such file or directory
+         fop_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fop_rec.c”: No such file or directory
+         fop_util.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\fileops\fop_util.c”: No such file or directory
+         hash.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash.c”: No such file or directory
+         hash_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_auto.c”: No such file or directory
+         hash_conv.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_conv.c”: No such file or directory
+         hash_dup.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_dup.c”: No such file or directory
+         hash_func.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_func.c”: No such file or directory
+         hash_meta.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_meta.c”: No such file or directory
+         hash_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_method.c”: No such file or directory
+         hash_open.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_open.c”: No such file or directory
+         hash_page.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_page.c”: No such file or directory
+         hash_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_rec.c”: No such file or directory
+         hash_reclaim.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_reclaim.c”: No such file or directory
+         hash_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_stat.c”: No such file or directory
+         hash_upgrade.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_upgrade.c”: No such file or directory
+         hash_verify.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hash\hash_verify.c”: No such file or directory
+         hmac.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hmac\hmac.c”: No such file or directory
+         hsearch.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hsearch\hsearch.c”: No such file or directory
+         lock.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock.c”: No such file or directory
+         正在编译...
+         lock_deadlock.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_deadlock.c”: No such file or directory
+         lock_failchk.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_failchk.c”: No such file or directory
+         lock_id.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_id.c”: No such file or directory
+         lock_list.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_list.c”: No such file or directory
+         lock_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_method.c”: No such file or directory
+         lock_region.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_region.c”: No such file or directory
+         lock_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_stat.c”: No such file or directory
+         lock_timer.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_timer.c”: No such file or directory
+         lock_util.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\lock\lock_util.c”: No such file or directory
+         log.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log.c”: No such file or directory
+         log_archive.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_archive.c”: No such file or directory
+         log_compare.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_compare.c”: No such file or directory
+         log_debug.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_debug.c”: No such file or directory
+         log_get.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_get.c”: No such file or directory
+         log_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_method.c”: No such file or directory
+         log_put.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_put.c”: No such file or directory
+         log_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\log\log_stat.c”: No such file or directory
+         mkpath.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\mkpath.c”: No such file or directory
+         mp_alloc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_alloc.c”: No such file or directory
+         mp_bh.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_bh.c”: No such file or directory
+         正在编译...
+         mp_fget.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fget.c”: No such file or directory
+         mp_fmethod.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fmethod.c”: No such file or directory
+         mp_fopen.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fopen.c”: No such file or directory
+         mp_fput.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fput.c”: No such file or directory
+         mp_fset.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_fset.c”: No such file or directory
+         mp_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_method.c”: No such file or directory
+         mp_mvcc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_mvcc.c”: No such file or directory
+         mp_region.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_region.c”: No such file or directory
+         mp_register.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_register.c”: No such file or directory
+         mp_resize.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_resize.c”: No such file or directory
+         mp_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_stat.c”: No such file or directory
+         mp_sync.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_sync.c”: No such file or directory
+         mp_trickle.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mp\mp_trickle.c”: No such file or directory
+         mt19937db.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\mersenne\mt19937db.c”: No such file or directory
+         mut_alloc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_alloc.c”: No such file or directory
+         mut_failchk.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_failchk.c”: No such file or directory
+         mut_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_method.c”: No such file or directory
+         mut_region.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_region.c”: No such file or directory
+         mut_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_stat.c”: No such file or directory
+         mut_win32.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\mutex\mut_win32.c”: No such file or directory
+         正在编译...
+         openflags.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\openflags.c”: No such file or directory
+         os_abort.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_abort.c”: No such file or directory
+         os_abs.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_abs.c”: No such file or directory
+         os_addrinfo.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_addrinfo.c”: No such file or directory
+         os_alloc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_alloc.c”: No such file or directory
+         os_clock.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_clock.c”: No such file or directory
+         os_config.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_config.c”: No such file or directory
+         os_cpu.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_cpu.c”: No such file or directory
+         os_ctime.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_ctime.c”: No such file or directory
+         os_dir.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_dir.c”: No such file or directory
+         os_errno.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_errno.c”: No such file or directory
+         os_fid.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_fid.c”: No such file or directory
+         os_flock.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_flock.c”: No such file or directory
+         os_fsync.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_fsync.c”: No such file or directory
+         os_getenv.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_getenv.c”: No such file or directory
+         os_handle.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_handle.c”: No such file or directory
+         os_map.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_map.c”: No such file or directory
+         os_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\os_method.c”: No such file or directory
+         os_mkdir.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_mkdir.c”: No such file or directory
+         os_open.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_open.c”: No such file or directory
+         正在编译...
+         os_pid.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_pid.c”: No such file or directory
+         os_rename.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_rename.c”: No such file or directory
+         os_root.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_root.c”: No such file or directory
+         os_rpath.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_rpath.c”: No such file or directory
+         os_rw.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_rw.c”: No such file or directory
+         os_seek.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_seek.c”: No such file or directory
+         os_stack.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_stack.c”: No such file or directory
+         os_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_stat.c”: No such file or directory
+         os_tmpdir.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_tmpdir.c”: No such file or directory
+         os_truncate.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_truncate.c”: No such file or directory
+         os_uid.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os\os_uid.c”: No such file or directory
+         os_unlink.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_unlink.c”: No such file or directory
+         os_yield.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\os_windows\os_yield.c”: No such file or directory
+         qam.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam.c”: No such file or directory
+         qam_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_auto.c”: No such file or directory
+         qam_conv.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_conv.c”: No such file or directory
+         qam_files.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_files.c”: No such file or directory
+         qam_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_method.c”: No such file or directory
+         qam_open.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_open.c”: No such file or directory
+         qam_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_rec.c”: No such file or directory
+         正在编译...
+         qam_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_stat.c”: No such file or directory
+         qam_upgrade.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_upgrade.c”: No such file or directory
+         qam_verify.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\qam\qam_verify.c”: No such file or directory
+         rep_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_auto.c”: No such file or directory
+         rep_backup.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_backup.c”: No such file or directory
+         rep_elect.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_elect.c”: No such file or directory
+         rep_lease.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_lease.c”: No such file or directory
+         rep_log.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_log.c”: No such file or directory
+         rep_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_method.c”: No such file or directory
+         rep_record.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_record.c”: No such file or directory
+         rep_region.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_region.c”: No such file or directory
+         rep_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_stat.c”: No such file or directory
+         rep_util.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_util.c”: No such file or directory
+         rep_verify.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\rep\rep_verify.c”: No such file or directory
+         repmgr_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_auto.c”: No such file or directory
+         repmgr_elect.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_elect.c”: No such file or directory
+         repmgr_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_method.c”: No such file or directory
+         repmgr_msg.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_msg.c”: No such file or directory
+         repmgr_net.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_net.c”: No such file or directory
+         repmgr_queue.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_queue.c”: No such file or directory
+         正在编译...
+         repmgr_sel.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_sel.c”: No such file or directory
+         repmgr_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_stat.c”: No such file or directory
+         repmgr_util.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_util.c”: No such file or directory
+         repmgr_windows.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\repmgr\repmgr_windows.c”: No such file or directory
+         rijndael-alg-fst.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\rijndael\rijndael-alg-fst.c”: No such file or directory
+         rijndael-api-fst.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\crypto\rijndael\rijndael-api-fst.c”: No such file or directory
+         seq_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\sequence\seq_stat.c”: No such file or directory
+         sequence.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\sequence\sequence.c”: No such file or directory
+         sha1.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\hmac\sha1.c”: No such file or directory
+         strsep.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\clib\strsep.c”: No such file or directory
+         txn.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn.c”: No such file or directory
+         txn_auto.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_auto.c”: No such file or directory
+         txn_chkpt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_chkpt.c”: No such file or directory
+         txn_failchk.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_failchk.c”: No such file or directory
+         txn_method.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_method.c”: No such file or directory
+         txn_rec.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_rec.c”: No such file or directory
+         txn_recover.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_recover.c”: No such file or directory
+         txn_region.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_region.c”: No such file or directory
+         txn_stat.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_stat.c”: No such file or directory
+         txn_util.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\txn\txn_util.c”: No such file or directory
+         正在编译...
+         util_cache.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\util_cache.c”: No such file or directory
+         util_log.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\util_log.c”: No such file or directory
+         util_sig.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\util_sig.c”: No such file or directory
+         xa.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\xa\xa.c”: No such file or directory
+         xa_db.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\xa\xa_db.c”: No such file or directory
+         xa_map.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\xa\xa_map.c”: No such file or directory
+         zerofill.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\db-4.7.25.0\common\zerofill.c”: No such file or directory
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\_bsddb.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.77

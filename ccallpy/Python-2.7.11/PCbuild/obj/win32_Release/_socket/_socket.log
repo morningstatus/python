@@ -1,0 +1,21 @@
+﻿生成启动时间为 2016/4/4 18:55:56。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\_socket.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\documents\python\hello\Python-2.7.11\Include" /I"E:\documents\python\hello\Python-2.7.11\PC" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _WIN32 /D NDEBUG /D Py_BUILD_CORE_MODULE /D _WINDLL /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\_socket\\" /Fd"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\_socket\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Modules\socketmodule.c
+         socketmodule.c
+     1>C:\Program Files (x86)\Windows Kits\8.0\Include\um\winsock2.h(380): warning C4005: “INVALID_SOCKET”: 宏重定义
+                 ..\Modules\socketmodule.c(98) : 参见“INVALID_SOCKET”的前一个定义
+     1>..\Modules\socketmodule.c(374): warning C4005: “EAFNOSUPPORT”: 宏重定义
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\errno.h(94) : 参见“EAFNOSUPPORT”的前一个定义
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\documents\python\hello\Python-2.7.11\PCBuild\_socket.pyd" /NOLOGO /LIBPATH:"E:\documents\python\hello\Python-2.7.11\PCBuild\\" ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\documents\python\hello\Python-2.7.11\PCBuild\_socket.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /BASE:"0x1e1D0000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\documents\python\hello\Python-2.7.11\PCBuild\_socket.lib" /MACHINE:X86 /SAFESEH /DLL "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\_socket\socketmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCBuild\python27.lib"
+            正在创建库 E:\documents\python\hello\Python-2.7.11\PCBuild\_socket.lib 和对象 E:\documents\python\hello\Python-2.7.11\PCBuild\_socket.exp
+         正在生成代码
+         已完成代码的生成
+         _socket.vcxproj -> E:\documents\python\hello\Python-2.7.11\PCBuild\_socket.pyd
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\_socket.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.41

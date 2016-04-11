@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/4/4 19:37:15。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PC\VS9.0\pythoncore.vcxproj”在节点 2 上(Build 个目标)。
+     1>PreLinkEvent:
+         "E:\documents\python\hello\Python-2.7.11\PC\VS9.0\make_buildinfo.exe" Release
+         :VCEnd
+         cl.exe -c -D_WIN32 -DUSE_DL_EXPORT -D_WINDOWS -DWIN32 -D_WINDLL -MD ..\..\Modules\getbuildinfo.c -Fogetbuildinfo.o -I..\..\Include -I..\..\PC
+         用于 x86 的 Microsoft (R) C/C++ 优化编译器 17.00.50727.1 版版权所有(C) Microsoft Corporation。保留所有权利。
+         
+         getbuildinfo.c
+       Lib:
+         pythoncore.vcxproj -> E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\pythoncore.lib
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PC\VS9.0\pythoncore.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.78

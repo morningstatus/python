@@ -1,0 +1,25 @@
+﻿生成启动时间为 2016/4/4 18:55:58。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\_sqlite3.vcxproj”在节点 4 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\documents\python\hello\Python-2.7.11\externals\sqlite-3.6.21\\" /I"E:\documents\python\hello\Python-2.7.11\Include" /I"E:\documents\python\hello\Python-2.7.11\PC" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D "MODULE_NAME=\"sqlite3\"" /D WIN32 /D _WIN32 /D NDEBUG /D Py_BUILD_CORE_MODULE /D _WINDLL /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\_sqlite3\\" /Fd"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\_sqlite3\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\Modules\_sqlite\cache.c ..\Modules\_sqlite\connection.c ..\Modules\_sqlite\cursor.c ..\Modules\_sqlite\microprotocols.c ..\Modules\_sqlite\module.c ..\Modules\_sqlite\prepare_protocol.c ..\Modules\_sqlite\row.c ..\Modules\_sqlite\statement.c ..\Modules\_sqlite\util.c
+         cache.c
+         connection.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sqlite\connection.h(33): fatal error C1083: 无法打开包括文件:“sqlite3.h”: No such file or directory
+         cursor.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sqlite\connection.h(33): fatal error C1083: 无法打开包括文件:“sqlite3.h”: No such file or directory
+         microprotocols.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sqlite\connection.h(33): fatal error C1083: 无法打开包括文件:“sqlite3.h”: No such file or directory
+         module.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sqlite\connection.h(33): fatal error C1083: 无法打开包括文件:“sqlite3.h”: No such file or directory
+         prepare_protocol.c
+         row.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sqlite\connection.h(33): fatal error C1083: 无法打开包括文件:“sqlite3.h”: No such file or directory
+         statement.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sqlite\connection.h(33): fatal error C1083: 无法打开包括文件:“sqlite3.h”: No such file or directory
+         util.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sqlite\connection.h(33): fatal error C1083: 无法打开包括文件:“sqlite3.h”: No such file or directory
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\_sqlite3.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.20

@@ -1,0 +1,15 @@
+﻿生成启动时间为 2016/4/4 18:55:15。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\w9xpopen.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\documents\python\hello\Python-2.7.11\Include" /I"E:\documents\python\hello\Python-2.7.11\PC" /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Oy- /GL /D _CONSOLE /D WIN32 /D _WIN32 /D NDEBUG /D _MBCS /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\w9xpopen\\" /Fd"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\w9xpopen\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\PC\w9xpopen.c
+         w9xpopen.c
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\documents\python\hello\Python-2.7.11\PCBuild\w9xpopen.exe" /NOLOGO /LIBPATH:"E:\documents\python\hello\Python-2.7.11\PCBuild\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\documents\python\hello\Python-2.7.11\PCBuild\w9xpopen.pdb" /SUBSYSTEM:CONSOLE /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\documents\python\hello\Python-2.7.11\PCBuild\w9xpopen.lib" /MACHINE:X86 /SAFESEH "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\w9xpopen\w9xpopen.obj"
+         正在生成代码
+         已完成代码的生成
+         w9xpopen.vcxproj -> E:\documents\python\hello\Python-2.7.11\PCBuild\w9xpopen.exe
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\w9xpopen.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.51

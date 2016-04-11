@@ -1,0 +1,1 @@
+exec '''from test import Test \nsetattr(Test, 'x', 2)'''

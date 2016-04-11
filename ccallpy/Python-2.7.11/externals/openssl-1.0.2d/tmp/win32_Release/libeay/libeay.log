@@ -1,0 +1,16 @@
+﻿生成启动时间为 2016/4/4 18:55:16。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\libeay.vcxproj”在节点 4 上(Build 个目标)。
+     1>BuildNasmFiles:
+         setlocal
+         set PATH=E:\documents\python\hello\Python-2.7.11\externals\\nasm-2.11.06\;%PATH%
+         nasm.exe -f win32 -o "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\tmp\win32_Release\libeay\aes-586.obj" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\tmp32\aes-586.asm"
+         'nasm.exe' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+     1>E:\documents\python\hello\Python-2.7.11\PCbuild\openssl.props(67,5): error MSB3073: 命令“setlocal
+E:\documents\python\hello\Python-2.7.11\PCbuild\openssl.props(67,5): error MSB3073: set PATH=E:\documents\python\hello\Python-2.7.11\externals\\nasm-2.11.06\;%PATH%
+E:\documents\python\hello\Python-2.7.11\PCbuild\openssl.props(67,5): error MSB3073: nasm.exe -f win32 -o "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\tmp\win32_Release\libeay\aes-586.obj" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\tmp32\aes-586.asm"”已退出，代码为 9009。
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\libeay.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.82

@@ -1,0 +1,39 @@
+﻿生成启动时间为 2016/4/4 18:55:15。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\tcl.vcxproj”在节点 3 上(Build 个目标)。
+     1>Build:
+         setlocal
+         if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\bin\tcl85.dll" goto build
+         if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\bin\tclsh85.exe" goto build
+         if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\include\tcl.h" goto build
+         if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tcl8" goto build
+         if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tcl8.5" goto build
+         if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tcl85.lib" goto build
+         goto :eof
+         :build
+         set VCINSTALLDIR=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\
+         cd /D "E:\documents\python\hello\Python-2.7.11\externals\tcl-8.5.15.0\win"
+         nmake -f makefile.vc MACHINE=IX86 OPTS= INSTALLDIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk" INSTALL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk"  core shell dlls
+         nmake -f makefile.vc MACHINE=IX86 OPTS= INSTALLDIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk" INSTALL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk"  install-binaries install-libraries
+         
+         系统找不到指定的路径。
+     1>EXEC : error : File makefile.vc doesn't exist.
+     1>EXEC : error : File makefile.vc doesn't exist.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: 命令“setlocal
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\bin\tcl85.dll" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\bin\tclsh85.exe" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\include\tcl.h" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tcl8" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tcl8.5" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tcl85.lib" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: goto :eof
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: :build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: set VCINSTALLDIR=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: cd /D "E:\documents\python\hello\Python-2.7.11\externals\tcl-8.5.15.0\win"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake -f makefile.vc MACHINE=IX86 OPTS= INSTALLDIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk" INSTALL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk"  core shell dlls
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake -f makefile.vc MACHINE=IX86 OPTS= INSTALLDIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk" INSTALL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk"  install-binaries install-libraries
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: ”已退出，代码为 2。
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\tcl.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.41

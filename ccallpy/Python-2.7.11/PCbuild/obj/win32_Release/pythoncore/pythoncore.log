@@ -1,0 +1,457 @@
+﻿生成启动时间为 2016/4/4 18:55:15。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\pythoncore.vcxproj”在节点 2 上(Build 个目标)。
+     1>KillPython:
+         Killing any running python.exe instances...
+       _GetBuildInfo:
+         hg id -b > "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\hgbranch.txt"
+         'hg' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+     1>E:\documents\python\hello\Python-2.7.11\PCbuild\pythoncore.vcxproj(415,5): warning MSB3073: 命令“hg id -b > "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\hgbranch.txt"”已退出，代码为 9009。
+         hg id -i > "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\hgversion.txt"
+         'hg' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+     1>E:\documents\python\hello\Python-2.7.11\PCbuild\pythoncore.vcxproj(416,5): warning MSB3073: 命令“hg id -i > "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\hgversion.txt"”已退出，代码为 9009。
+         hg id -t > "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\hgtag.txt"
+         'hg' 不是内部或外部命令，也不是可运行的程序
+         或批处理文件。
+     1>E:\documents\python\hello\Python-2.7.11\PCbuild\pythoncore.vcxproj(417,5): warning MSB3073: 命令“hg id -t > "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\hgtag.txt"”已退出，代码为 9009。
+     1>E:\documents\python\hello\Python-2.7.11\PCbuild\pythoncore.vcxproj(430,5): warning : Toolset v110 is not used for official builds. Your build may have errors or incompatibilities.
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\documents\python\hello\Python-2.7.11\Python" /I"E:\documents\python\hello\Python-2.7.11\Modules\zlib" /I"E:\documents\python\hello\Python-2.7.11\Include" /I"E:\documents\python\hello\Python-2.7.11\PC" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D _USRDLL /D Py_BUILD_CORE /D Py_ENABLE_SHARED /D "MS_DLL_ID=\"2.7-32\"" /D WIN32 /D _WIN32 /D NDEBUG /D _WINDLL /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\\" /Fd"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt /Zm200  ..\Modules\_bisectmodule.c ..\Modules\_codecsmodule.c ..\Modules\_collectionsmodule.c ..\Modules\_csv.c ..\Modules\_functoolsmodule.c ..\Modules\_heapqmodule.c ..\Modules\_hotshot.c ..\Modules\_json.c ..\Modules\_localemodule.c ..\Modules\_lsprof.c ..\Modules\_math.c ..\Modules\_randommodule.c ..\Modules\_sre.c ..\Modules\_struct.c ..\Modules\_weakref.c ..\Modules\arraymodule.c ..\Modules\audioop.c ..\Modules\binascii.c ..\Modules\cmathmodule.c ..\Modules\cPickle.c ..\Modules\cStringIO.c ..\Modules\datetimemodule.c ..\Modules\errnomodule.c ..\Modules\future_builtins.c ..\Modules\gcmodule.c ..\Modules\imageop.c ..\Modules\itertoolsmodule.c ..\Modules\main.c ..\Modules\mathmodule.c ..\Modules\md5.c ..\Modules\md5module.c ..\Modules\mmapmodule.c ..\Modules\operator.c ..\Modules\parsermodule.c ..\Modules\posixmodule.c ..\Modules\rotatingtree.c ..\Modules\sha256module.c ..\Modules\sha512module.c ..\Modules\shamodule.c ..\Modules\signalmodule.c ..\Modules\stropmodule.c ..\Modules\symtablemodule.c ..\Modules\threadmodule.c ..\Modules\timemodule.c ..\Modules\xxsubtype.c ..\Modules\zipimport.c ..\Modules\zlibmodule.c ..\Modules\zlib\adler32.c ..\Modules\zlib\compress.c ..\Modules\zlib\crc32.c ..\Modules\zlib\deflate.c ..\Modules\zlib\gzclose.c ..\Modules\zlib\gzlib.c ..\Modules\zlib\gzread.c ..\Modules\zlib\gzwrite.c ..\Modules\zlib\infback.c ..\Modules\zlib\inffast.c ..\Modules\zlib\inflate.c ..\Modules\zlib\inftrees.c ..\Modules\zlib\trees.c ..\Modules\zlib\uncompr.c ..\Modules\zlib\zutil.c ..\Modules\cjkcodecs\_codecs_cn.c ..\Modules\cjkcodecs\_codecs_hk.c ..\Modules\cjkcodecs\_codecs_iso2022.c ..\Modules\cjkcodecs\_codecs_jp.c ..\Modules\cjkcodecs\_codecs_kr.c ..\Modules\cjkcodecs\_codecs_tw.c ..\Modules\cjkcodecs\multibytecodec.c ..\Modules\_io\_iomodule.c ..\Modules\_io\bufferedio.c ..\Modules\_io\bytesio.c ..\Modules\_io\fileio.c ..\Modules\_io\iobase.c ..\Modules\_io\stringio.c ..\Modules\_io\textio.c ..\Objects\abstract.c ..\Objects\boolobject.c ..\Objects\bufferobject.c ..\Objects\bytes_methods.c ..\Objects\bytearrayobject.c ..\Objects\capsule.c ..\Objects\cellobject.c ..\Objects\classobject.c ..\Objects\cobject.c ..\Objects\codeobject.c ..\Objects\complexobject.c ..\Objects\descrobject.c ..\Objects\dictobject.c ..\Objects\enumobject.c ..\Objects\exceptions.c ..\Objects\fileobject.c ..\Objects\floatobject.c ..\Objects\frameobject.c ..\Objects\funcobject.c ..\Objects\genobject.c ..\Objects\intobject.c ..\Objects\iterobject.c ..\Objects\listobject.c ..\Objects\longobject.c ..\Objects\memoryobject.c ..\Objects\methodobject.c ..\Objects\moduleobject.c ..\Objects\object.c ..\Objects\obmalloc.c ..\Objects\rangeobject.c ..\Objects\setobject.c ..\Objects\sliceobject.c ..\Objects\stringobject.c ..\Objects\structseq.c ..\Objects\tupleobject.c ..\Objects\typeobject.c ..\Objects\unicodectype.c ..\Objects\unicodeobject.c ..\Objects\weakrefobject.c ..\Parser\acceler.c ..\Parser\bitset.c ..\Parser\firstsets.c ..\Parser\grammar.c ..\Parser\grammar1.c ..\Parser\listnode.c ..\Parser\metagrammar.c ..\Parser\myreadline.c ..\Parser\node.c ..\Parser\parser.c ..\Parser\parsetok.c ..\Parser\tokenizer.c ..\PC\_subprocess.c ..\PC\_winreg.c ..\PC\config.c ..\PC\dl_nt.c ..\PC\getpathp.c ..\PC\import_nt.c ..\PC\msvcrtmodule.c ..\Python\_warnings.c ..\Python\asdl.c ..\Python\ast.c ..\Python\bltinmodule.c ..\Python\ceval.c ..\Python\codecs.c ..\Python\compile.c ..\Python\dtoa.c ..\Python\dynload_win.c ..\Python\errors.c ..\Python\formatter_string.c ..\Python\formatter_unicode.c ..\Python\frozen.c ..\Python\future.c ..\Python\getargs.c ..\Python\getcompiler.c ..\Python\getcopyright.c ..\Python\getopt.c ..\Python\getplatform.c ..\Python\getversion.c ..\Python\graminit.c ..\Python\import.c ..\Python\importdl.c ..\Python\marshal.c ..\Python\modsupport.c ..\Python\mysnprintf.c ..\Python\mystrtoul.c ..\Python\peephole.c ..\Python\pyarena.c ..\Python\pyctype.c ..\Python\pyfpe.c ..\Python\pymath.c ..\Python\pystate.c ..\Python\pystrcmp.c ..\Python\pystrtod.c "..\Python\Python-ast.c" ..\Python\pythonrun.c ..\Python\random.c ..\Python\structmember.c ..\Python\symtable.c ..\Python\sysmodule.c ..\Python\thread.c ..\Python\traceback.c
+         _bisectmodule.c
+         _codecsmodule.c
+         _collectionsmodule.c
+         _csv.c
+         _functoolsmodule.c
+         _heapqmodule.c
+         _hotshot.c
+         _json.c
+         _localemodule.c
+         _lsprof.c
+         _math.c
+         _randommodule.c
+         _sre.c
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(838): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(2905): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(2913): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(2922): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(2985): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3032): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3049): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3073): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3077): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3105): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3117): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3130): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3149): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3168): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3177): warning C4018: “>=”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3179): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3206): warning C4018: “<”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3213): warning C4018: “>”: 有符号/无符号不匹配
+     1>e:\documents\python\hello\python-2.7.11\modules\_sre.c(3228): warning C4018: “>”: 有符号/无符号不匹配
+         _struct.c
+         _weakref.c
+         arraymodule.c
+         audioop.c
+     1>..\Modules\audioop.c(28): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+     1>..\Modules\audioop.c(38): warning C4244: “return”: 从“double”转换到“int”，可能丢失数据
+     1>..\Modules\audioop.c(389): warning C4146: 一元负运算符应用于无符号类型，结果仍为无符号类型
+         binascii.c
+         cmathmodule.c
+         cPickle.c
+         正在编译...
+         cStringIO.c
+         datetimemodule.c
+         errnomodule.c
+         future_builtins.c
+         gcmodule.c
+         imageop.c
+         itertoolsmodule.c
+         main.c
+         mathmodule.c
+         md5.c
+         md5module.c
+         mmapmodule.c
+         operator.c
+         parsermodule.c
+         posixmodule.c
+     1>..\Modules\posixmodule.c(4443): warning C4101: “opath”: 未引用的局部变量
+         rotatingtree.c
+         sha256module.c
+         sha512module.c
+         shamodule.c
+         signalmodule.c
+         正在编译...
+         stropmodule.c
+         symtablemodule.c
+         threadmodule.c
+         timemodule.c
+         xxsubtype.c
+         zipimport.c
+         zlibmodule.c
+     1>..\Modules\zlibmodule.c(482): warning C4018: “>”: 有符号/无符号不匹配
+         adler32.c
+         compress.c
+         crc32.c
+         deflate.c
+         gzclose.c
+         gzlib.c
+     1>..\Modules\zlib\gzlib.c(193): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(554) : 参见“wcstombs”的声明
+     1>..\Modules\zlib\gzlib.c(208): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdlib.h(554) : 参见“wcstombs”的声明
+     1>..\Modules\zlib\gzlib.c(214): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>..\Modules\zlib\gzlib.c(245): warning C4996: '_wopen': This function or variable may be unsafe. Consider using _wsopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(275) : 参见“_wopen”的声明
+     1>..\Modules\zlib\gzlib.c(245): warning C4996: 'open': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _open. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(315) : 参见“open”的声明
+     1>..\Modules\zlib\gzlib.c(294): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+     1>..\Modules\zlib\gzlib.c(608): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(349) : 参见“_snprintf”的声明
+         gzread.c
+     1>..\Modules\zlib\gzread.c(30): warning C4996: 'read': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _read. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(316) : 参见“read”的声明
+     1>..\Modules\zlib\gzread.c(36): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(164) : 参见“strerror”的声明
+     1>..\Modules\zlib\gzread.c(591): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : 参见“close”的声明
+         gzwrite.c
+     1>..\Modules\zlib\gzwrite.c(84): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(321) : 参见“write”的声明
+     1>..\Modules\zlib\gzwrite.c(86): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(164) : 参见“strerror”的声明
+     1>..\Modules\zlib\gzwrite.c(102): warning C4996: 'write': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _write. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(321) : 参见“write”的声明
+     1>..\Modules\zlib\gzwrite.c(103): warning C4996: 'strerror': This function or variable may be unsafe. Consider using strerror_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\string.h(164) : 参见“strerror”的声明
+     1>..\Modules\zlib\gzwrite.c(357): warning C4996: 'vsnprintf': This function or variable may be unsafe. Consider using vsnprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\stdio.h(340) : 参见“vsnprintf”的声明
+     1>..\Modules\zlib\gzwrite.c(573): warning C4996: 'close': The POSIX name for this item is deprecated. Instead, use the ISO C++ conformant name: _close. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\include\io.h(305) : 参见“close”的声明
+         infback.c
+         inffast.c
+         inflate.c
+         inftrees.c
+         trees.c
+         正在编译...
+         uncompr.c
+         zutil.c
+         _codecs_cn.c
+         _codecs_hk.c
+         _codecs_iso2022.c
+         _codecs_jp.c
+         _codecs_kr.c
+         _codecs_tw.c
+         multibytecodec.c
+         _iomodule.c
+         bufferedio.c
+         bytesio.c
+         fileio.c
+         iobase.c
+         stringio.c
+         textio.c
+         abstract.c
+         boolobject.c
+         bufferobject.c
+         bytes_methods.c
+         正在编译...
+         bytearrayobject.c
+         capsule.c
+         cellobject.c
+         classobject.c
+         cobject.c
+         codeobject.c
+         complexobject.c
+         descrobject.c
+         dictobject.c
+         enumobject.c
+         exceptions.c
+         fileobject.c
+         floatobject.c
+         frameobject.c
+         funcobject.c
+         genobject.c
+         intobject.c
+         iterobject.c
+         listobject.c
+         longobject.c
+         正在编译...
+         memoryobject.c
+         methodobject.c
+         moduleobject.c
+         object.c
+         obmalloc.c
+         rangeobject.c
+         setobject.c
+         sliceobject.c
+         stringobject.c
+         structseq.c
+         tupleobject.c
+         typeobject.c
+         unicodectype.c
+         unicodeobject.c
+     1>..\Objects\unicodeobject.c(4223): warning C4244: “=”: 从“long”转换到“Py_UNICODE”，可能丢失数据
+         weakrefobject.c
+         acceler.c
+         bitset.c
+         firstsets.c
+         grammar.c
+         grammar1.c
+         正在编译...
+         listnode.c
+         metagrammar.c
+         myreadline.c
+         node.c
+         parser.c
+         parsetok.c
+         tokenizer.c
+         _subprocess.c
+         _winreg.c
+         config.c
+         dl_nt.c
+         getpathp.c
+         import_nt.c
+         msvcrtmodule.c
+     1>..\PC\msvcrtmodule.c(400): warning C4101: “st”: 未引用的局部变量
+         _warnings.c
+         asdl.c
+         ast.c
+         bltinmodule.c
+         ceval.c
+         codecs.c
+         正在编译...
+         compile.c
+         dtoa.c
+         dynload_win.c
+         errors.c
+         formatter_string.c
+         formatter_unicode.c
+         frozen.c
+         future.c
+         getargs.c
+         getcompiler.c
+         getcopyright.c
+         getopt.c
+         getplatform.c
+         getversion.c
+         graminit.c
+         import.c
+         importdl.c
+         marshal.c
+     1>..\Python\marshal.c(1039): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         modsupport.c
+         mysnprintf.c
+         正在编译...
+         mystrtoul.c
+         peephole.c
+         pyarena.c
+         pyctype.c
+         pyfpe.c
+         pymath.c
+         pystate.c
+         pystrcmp.c
+         pystrtod.c
+         Python-ast.c
+         pythonrun.c
+         random.c
+         structmember.c
+         symtable.c
+         sysmodule.c
+         thread.c
+         traceback.c
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\documents\python\hello\Python-2.7.11\Python" /I"E:\documents\python\hello\Python-2.7.11\Modules\zlib" /I"E:\documents\python\hello\Python-2.7.11\Include" /I"E:\documents\python\hello\Python-2.7.11\PC" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D "HGVERSION=\"\"" /D "HGTAG=\"\"" /D "HGBRANCH=\"\"" /D _USRDLL /D Py_BUILD_CORE /D Py_ENABLE_SHARED /D "MS_DLL_ID=\"2.7-32\"" /D WIN32 /D _WIN32 /D NDEBUG /D _WINDLL /GF /Gm- /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\\" /Fd"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt /Zm200  ..\Modules\getbuildinfo.c
+         getbuildinfo.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x0409" /I"E:\documents\python\hello\Python-2.7.11\PC" /I"E:\documents\python\hello\Python-2.7.11\Include" /nologo /fo"E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\python_nt.res" ..\PC\python_nt.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\documents\python\hello\Python-2.7.11\PCBuild\python27.dll" /NOLOGO /LIBPATH:"E:\documents\python\hello\Python-2.7.11\PCBuild\\" ws2_32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /NODEFAULTLIB:LIBC /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\documents\python\hello\Python-2.7.11\PCBuild\python27.pdb" /SUBSYSTEM:WINDOWS /LTCG /TLBID:1 /BASE:"0x1e000000" /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\documents\python\hello\Python-2.7.11\PCBuild\python27.lib" /MACHINE:X86 /SAFESEH /DLL "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\python_nt.res"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_bisectmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_codecsmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_collectionsmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_csv.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_functoolsmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_heapqmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_hotshot.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_json.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_localemodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_lsprof.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_math.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_randommodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_sre.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_struct.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_weakref.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\arraymodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\audioop.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\binascii.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\cmathmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\cPickle.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\cStringIO.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\datetimemodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\errnomodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\future_builtins.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\gcmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\imageop.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\itertoolsmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\main.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\mathmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\md5.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\md5module.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\mmapmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\operator.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\parsermodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\posixmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\rotatingtree.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\sha256module.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\sha512module.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\shamodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\signalmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\stropmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\symtablemodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\threadmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\timemodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\xxsubtype.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\zipimport.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\zlibmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\adler32.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\compress.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\crc32.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\deflate.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\gzclose.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\gzlib.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\gzread.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\gzwrite.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\infback.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\inffast.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\inflate.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\inftrees.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\trees.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\uncompr.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\zutil.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_codecs_cn.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_codecs_hk.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_codecs_iso2022.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_codecs_jp.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_codecs_kr.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_codecs_tw.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\multibytecodec.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_iomodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\bufferedio.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\bytesio.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\fileio.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\iobase.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\stringio.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\textio.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\abstract.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\boolobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\bufferobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\bytes_methods.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\bytearrayobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\capsule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\cellobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\classobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\cobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\codeobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\complexobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\descrobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\dictobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\enumobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\exceptions.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\fileobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\floatobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\frameobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\funcobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\genobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\intobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\iterobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\listobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\longobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\memoryobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\methodobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\moduleobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\object.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\obmalloc.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\rangeobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\setobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\sliceobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\stringobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\structseq.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\tupleobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\typeobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\unicodectype.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\unicodeobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\weakrefobject.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\acceler.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\bitset.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\firstsets.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\grammar.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\grammar1.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\listnode.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\metagrammar.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\myreadline.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\node.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\parser.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\parsetok.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\tokenizer.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_subprocess.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_winreg.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\config.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\dl_nt.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getpathp.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\import_nt.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\msvcrtmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\_warnings.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\asdl.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\ast.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\bltinmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\ceval.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\codecs.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\compile.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\dtoa.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\dynload_win.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\errors.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\formatter_string.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\formatter_unicode.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\frozen.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\future.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getargs.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getcompiler.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getcopyright.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getopt.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getplatform.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getversion.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\graminit.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\import.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\importdl.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\marshal.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\modsupport.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\mysnprintf.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\mystrtoul.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\peephole.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pyarena.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pyctype.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pyfpe.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pymath.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pystate.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pystrcmp.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pystrtod.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\Python-ast.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\pythonrun.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\random.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\structmember.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\symtable.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\sysmodule.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\thread.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\traceback.obj"
+         "E:\documents\python\hello\Python-2.7.11\PCbuild\obj\win32_Release\pythoncore\getbuildinfo.obj"
+            正在创建库 E:\documents\python\hello\Python-2.7.11\PCBuild\python27.lib 和对象 E:\documents\python\hello\Python-2.7.11\PCBuild\python27.exp
+         正在生成代码
+         已完成代码的生成
+         pythoncore.vcxproj -> E:\documents\python\hello\Python-2.7.11\PCBuild\python27.dll
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\pythoncore.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:40.45

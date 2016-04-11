@@ -1,0 +1,19 @@
+﻿生成启动时间为 2016/4/5 14:18:48。
+     1>项目“E:\documents\python\hello\hello\hello.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D Py_NO_ENABLE_SHARED /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt pycallc.cpp
+         pycallc.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\documents\python\hello\Release\hello.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\documents\python\hello\Python-2.7.11\PC\VS9.0" pythoncore.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\documents\python\hello\Release\hello.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\documents\python\hello\Release\hello.lib" /MACHINE:X86 /SAFESEH Release\pycallc.obj
+         Release\hello.obj
+         Release\stdafx.obj
+            正在创建库 E:\documents\python\hello\Release\hello.lib 和对象 E:\documents\python\hello\Release\hello.exp
+         正在生成代码
+         已完成代码的生成
+     1>pythoncore.lib(posixmodule.obj) : warning LNK4049: 已导入本地定义的符号 ___pioinfo
+         hello.vcxproj -> E:\documents\python\hello\Release\hello.exe
+     1>已完成生成项目“E:\documents\python\hello\hello\hello.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.10

@@ -1,0 +1,26 @@
+﻿生成启动时间为 2016/4/4 18:55:17。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\tix.vcxproj”在节点 3 上(Build 个目标)。
+     1>Build:
+         setlocal
+         if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tix8.4.3\tix84.dll" goto build
+         goto :eof
+         :build
+         set VCINSTALLDIR=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\
+         cd /D "E:\documents\python\hello\Python-2.7.11\externals\tix-8.4.3.5\win"
+         nmake /nologo -f makefile.vc MACHINE=IX86 DEBUG=0 NODEBUG=1 TCL_MAJOR=8 TCL_MINOR=5 TCL_PATCH=15 BUILDDIRTOP="Release_VC9" TCL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcl-8.5.15.0" TK_DIR="E:\documents\python\hello\Python-2.7.11\externals\tk-8.5.15.0" INSTALL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk" all install
+         
+         系统找不到指定的路径。
+     1>EXEC : error : File makefile.vc doesn't exist.
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: 命令“setlocal
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: if not exist "E:\documents\python\hello\Python-2.7.11\externals\tcltk\lib\tix8.4.3\tix84.dll" goto build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: goto :eof
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: :build
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: set VCINSTALLDIR=D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: cd /D "E:\documents\python\hello\Python-2.7.11\externals\tix-8.4.3.5\win"
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: nmake /nologo -f makefile.vc MACHINE=IX86 DEBUG=0 NODEBUG=1 TCL_MAJOR=8 TCL_MINOR=5 TCL_PATCH=15 BUILDDIRTOP="Release_VC9" TCL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcl-8.5.15.0" TK_DIR="E:\documents\python\hello\Python-2.7.11\externals\tk-8.5.15.0" INSTALL_DIR="E:\documents\python\hello\Python-2.7.11\externals\tcltk" all install
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V110\Microsoft.MakeFile.Targets(38,5): error MSB3073: ”已退出，代码为 2。
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\tix.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.05

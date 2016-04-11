@@ -1,0 +1,13 @@
+﻿生成启动时间为 2016/4/4 19:24:38。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PC\VS9.0\w9xpopen.vcxproj”在节点 3 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Oy- /D NDEBUG /D _WIN32 /D _MBCS /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\w9xpopen\\" /Fd"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\w9xpopen\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\w9xpopen.c
+         w9xpopen.c
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\w9xpopen.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\\" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\w9xpopen.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\w9xpopen.lib" /MACHINE:X86 /SAFESEH "E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\w9xpopen\w9xpopen.obj"
+         w9xpopen.vcxproj -> E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\w9xpopen.exe
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PC\VS9.0\w9xpopen.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.42

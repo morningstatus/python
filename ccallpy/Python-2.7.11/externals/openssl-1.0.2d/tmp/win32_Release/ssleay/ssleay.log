@@ -1,0 +1,88 @@
+﻿生成启动时间为 2016/4/4 18:55:17。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PCbuild\ssleay.vcxproj”在节点 5 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\\" /I"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\include" /I"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\crypto" /I"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\crypto\asn1" /I"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\crypto\evp" /I"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\crypto\modes" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D DSO_WIN32 /D WIN32_LEAN_AND_MEAN /D L_ENDIAN /D _CRT_SECURE_NO_WARNINGS /D _CRT_SECURE_NO_DEPRECATE /D OPENSSL_THREADS /D OPENSSL_SYSNAME_WIN32 /D OPENSSL_IA32_SSE2 /D OPENSSL_CPUID_OBJ /D SHA1_ASM /D SHA256_ASM /D SHA512_ASM /D MD5_ASM /D AES_ASM /D VPAES_ASM /D WHIRLPOOL_ASM /D GHASH_ASM /D OPENSSL_NO_IDEA /D OPENSSL_NO_RC5 /D OPENSSL_NO_MD2 /D OPENSSL_NO_MDC2 /D OPENSSL_NO_KRB5 /D OPENSSL_NO_JPAKE /D OPENSSL_NO_RDRAND /D OPENSSL_NO_RSAX /D OPENSSL_NO_DYNAMIC_ENGINE /D OPENSSL_BN_ASM_GF2m /D OPENSSL_BN_ASM_PART_WORDS /D OPENSSL_BN_ASM_MONT /D RMD160_ASM /D WIN32 /D _WIN32 /D NDEBUG /GF /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\tmp\win32_Release\ssleay\\" /Fd"E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\tmp\win32_Release\ssleay\vc110.pdb" /Gd /TC /wd4244 /wd4267 /analyze- /errorReport:prompt "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_both.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_lib.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_pkt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_srtp.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_clnt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_enc.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_lib.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_meth.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_pkt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_srvr.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_clnt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_lib.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_meth.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_pkt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_srvr.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_both.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_cbc.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_clnt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_enc.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_lib.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_meth.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_pkt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_srvr.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_algs.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_asn1.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_cert.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_ciph.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_err.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_err2.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_lib.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_rsa.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_sess.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_clnt.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_enc.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_lib.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_meth.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_reneg.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_srvr.c" "E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\tls_srp.c"
+         d1_both.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_both.c”: No such file or directory
+         d1_lib.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_lib.c”: No such file or directory
+         d1_pkt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_pkt.c”: No such file or directory
+         d1_srtp.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\d1_srtp.c”: No such file or directory
+         s2_clnt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_clnt.c”: No such file or directory
+         s2_enc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_enc.c”: No such file or directory
+         s2_lib.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_lib.c”: No such file or directory
+         s2_meth.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_meth.c”: No such file or directory
+         s2_pkt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_pkt.c”: No such file or directory
+         s2_srvr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s2_srvr.c”: No such file or directory
+         s23_clnt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_clnt.c”: No such file or directory
+         s23_lib.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_lib.c”: No such file or directory
+         s23_meth.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_meth.c”: No such file or directory
+         s23_pkt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_pkt.c”: No such file or directory
+         s23_srvr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s23_srvr.c”: No such file or directory
+         s3_both.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_both.c”: No such file or directory
+         s3_cbc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_cbc.c”: No such file or directory
+         s3_clnt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_clnt.c”: No such file or directory
+         s3_enc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_enc.c”: No such file or directory
+         s3_lib.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_lib.c”: No such file or directory
+         正在编译...
+         s3_meth.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_meth.c”: No such file or directory
+         s3_pkt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_pkt.c”: No such file or directory
+         s3_srvr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\s3_srvr.c”: No such file or directory
+         ssl_algs.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_algs.c”: No such file or directory
+         ssl_asn1.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_asn1.c”: No such file or directory
+         ssl_cert.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_cert.c”: No such file or directory
+         ssl_ciph.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_ciph.c”: No such file or directory
+         ssl_err.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_err.c”: No such file or directory
+         ssl_err2.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_err2.c”: No such file or directory
+         ssl_lib.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_lib.c”: No such file or directory
+         ssl_rsa.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_rsa.c”: No such file or directory
+         ssl_sess.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\ssl_sess.c”: No such file or directory
+         t1_clnt.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_clnt.c”: No such file or directory
+         t1_enc.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_enc.c”: No such file or directory
+         t1_lib.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_lib.c”: No such file or directory
+         t1_meth.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_meth.c”: No such file or directory
+         t1_reneg.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_reneg.c”: No such file or directory
+         t1_srvr.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\t1_srvr.c”: No such file or directory
+         tls_srp.c
+     1>c1 : fatal error C1083: 无法打开源文件:“E:\documents\python\hello\Python-2.7.11\externals\openssl-1.0.2d\ssl\tls_srp.c”: No such file or directory
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PCbuild\ssleay.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.66

@@ -1,0 +1,17 @@
+﻿生成启动时间为 2016/4/4 19:25:04。
+     1>项目“E:\documents\python\hello\Python-2.7.11\PC\VS9.0\python.vcxproj”在节点 4 上(Rebuild 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I..\..\Include /I..\..\PC /Zi /nologo /W3 /WX- /O2 /Ob1 /Oi /Oy- /D _CONSOLE /D NDEBUG /D _WIN32 /D _MBCS /GF /Gm- /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\python\\" /Fd"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\python\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\..\Modules\python.c
+         python.c
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.0\bin\x86\rc.exe /D NDEBUG /l"0x0409" /I..\..\PC /I..\..\Include /nologo /fo"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\python\python_exe.res" ..\python_exe.rc 
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\python.lib" /NOLOGO "E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\python\python_exe.res"
+         "E:\documents\python\hello\Python-2.7.11\PC\VS9.0\Win32-temp-Release\python\python.obj"
+     1>LINK : warning LNK4068: 未指定 /MACHINE；默认设置为 X86
+         python.vcxproj -> E:\documents\python\hello\Python-2.7.11\PC\VS9.0\\python.lib
+     1>已完成生成项目“E:\documents\python\hello\Python-2.7.11\PC\VS9.0\python.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:00.33
